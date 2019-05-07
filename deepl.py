@@ -1,6 +1,7 @@
 import sublime
 import sublime_plugin
 import webbrowser
+import urllib.parse
 
 
 class deeplCommand(sublime_plugin.TextCommand):
@@ -14,4 +15,4 @@ class deeplCommand(sublime_plugin.TextCommand):
         else:
             phrase = self.view.substr(self.view.word(region.begin()))
         sublime.status_message('open DeepL ...')
-        webbrowser.open_new_tab('https://www.deepl.com/translator#en/en/' + phrase)
+        webbrowser.open_new_tab('https://www.deepl.com/translator#en/en/' + urllib.parse.quote(phrase))
