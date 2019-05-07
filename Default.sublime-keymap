@@ -1,0 +1,6 @@
+/*
+Find in Google with F1
+*/
+[
+	{ "keys": ["alt+t"], "command": "deepl" }
+]
