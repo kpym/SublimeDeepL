@@ -1,6 +1,10 @@
 [
   {
     "caption": "DeepL: Translate selection",
-    "command": "deepl"
+    "command": "deepl_translate"
+  },
+  {
+    "caption": "DeepL: Rewrite selection",
+    "command": "deepl_rewrite"
   }
 ]

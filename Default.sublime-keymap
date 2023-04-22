@@ -1,6 +1,7 @@
 /*
-Find in Google with F1
+Open DeepL
 */
 [
-	{ "keys": ["alt+t"], "command": "deepl" }
+	{ "keys": ["alt+t"], "command": "deepl_translate" },
+  { "keys": ["alt+ctrl+t"], "command": "deepl_rewrite" }
 ]
